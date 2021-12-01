@@ -1,0 +1,199 @@
+QWidget{
+    color: black;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: 1px;
+    border-style: solid;
+    border-color: #636363;
+}
+
+QLabel{
+   background-color: transparent;
+   border: 0px;
+}
+
+QWidget#RibbonTitleWidget{
+   border: 0px;
+}
+
+QMenuBar#RibbonMenuBar {
+    background-color: #cfe2f3;
+    border: 1px;
+}
+
+QMenuBar#RibbonMenuBar{
+}
+
+QMenuBar#RibbonMenuBar QWidget#RibbonTitleBar QStackedWidget#StackedWidget{
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: #cfe2f3;
+}
+
+QToolButton{
+    background-color: transparent;
+    border:0px;
+}
+
+QToolButton:hover, QToolButton:pressed{
+    background-color: #cfe2f3;
+    border: 1px;
+    border-style: inset;
+    border-color: white;
+}
+
+QToolButton#LargeButton::menu-button{
+    background-color: transparent;
+    subcontrol-origin: padding;
+    subcontrol-position: bottom;
+    position: relative;
+    top: 25px;
+}
+
+QToolButton#SmallButton::menu-button{
+    background-color: transparent;
+    subcontrol-origin: padding;
+    position: relative;
+    left: 5px;
+    right: 1px;
+}
+
+QWidget#RibbonTitleBar QToolButton{
+    background-color: #cfe2f3;
+    border-width: 0px;
+}
+
+QWidget#RibbonTitleBar QToolButton:pressed,
+QWidget#RibbonTitleBar QToolButton:hover{
+    background-color: #4169e1;
+}
+
+QPushButton#ApplicationButton{
+    text-align: center;
+    background-color: #436eee;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 6px;
+    margin-bottom: 0px;
+    min-height:30px;
+    max-height:30px;
+    padding-left:1px;
+    padding-right:1px;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+
+QPushButton#ApplicationButton::hover
+{
+    background-color: #416AED;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+QPushButton#ApplicationButton::menu-indicator{
+   image: none;
+}
+
+QPushButton#ApplicationButton:focus{
+   outline: none;
+}
+
+QToolButton#OtherControl::menu-indicator{
+   image: none;
+}
+
+QMenu::item{
+    padding: 5px 25px 5px 25px;
+}
+
+QMenu::item:hover{
+    border: 1px solid white;
+    background-color: #cfe2f3;
+}
+
+QMenu::item:selected{
+    background-color: #cfe2f3;
+}
+
+QTabBar{
+    background-color: transparent;
+    border: 0px;
+}
+
+QTabBar::tab {
+    border:none;
+    background: transparent;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 6px;
+    margin-bottom: 0px;
+    min-width:60px;
+    max-width:200px;
+    min-height:30px;
+    max-height:30px;
+    padding-left:1px;
+    padding-right:1px;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+   border-top-left-radius: 2px;
+   border-top-right-radius: 2px;
+}
+
+QTabBar::tab:selected{
+    background-color: #ffffff;
+    border-bottom-color: #9c9c9c;
+}
+
+QTabBar::tab:hover:!selected{
+    background-color: #cfe2f3;
+    border-bottom-color: #262b31;
+}
+
+QTabBar::tab:!selected {
+    margin-top: 0px;
+}
+
+QStatusBar#StatusBar QSlider{
+   border: 0px;
+}
+
+QWidget#SystemGroupWidget{
+   background-color: #cfe2f3;
+   border: 0px;
+}
+
+QWidget#SystemGroupWidget QToolButton:pressed,
+QWidget#SystemGroupWidget QToolButton:hover{
+    background-color: #4169e1;
+    border: 0px;
+}
+
+QGroupBox{
+   border-radius: 5px;
+   margin-top:1ex;
+}
+
+QGroupBox::title{
+   subcontrol-origin: margin;
+   subcontrol-position: left top;
+   position: relative;
+   left:10px;
+   height: 25px;
+}
+
+QLineEdit{
+   border-radius: 3px;
+   border: 1px solid;
+   color: black;
+}
+
+QLineEdit:hover{
+   border: 1px solid #473c8b;
+}
+
+QDialog#DialogBase QWidget#DialogTitle{
+   background-color: #cfe2f3;
+}

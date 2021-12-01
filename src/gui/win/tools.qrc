@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>res/tool/redo.png</file>
+        <file>res/tool/select.svg</file>
+        <file>res/tool/undo.png</file>
+        <file>res/tool/zoomin.png</file>
+        <file>res/tool/zoomout.png</file>
+        <file>res/tool/import.svg</file>
+        <file>res/tool/up.png</file>
+        <file>res/tool/down.png</file>
+        <file>res/tool/pin.svg</file>
+        <file>res/tool/logo.png</file>
+        <file>res/tool/menu.png</file>
+        <file>res/tool/close.png</file>
+        <file>res/tool/copy.png</file>
+        <file>res/tool/cut.png</file>
+        <file>res/tool/min.png</file>
+        <file>res/tool/max.png</file>
+        <file>res/tool/skin.png</file>
+        <file>res/tool/restore.png</file>
+        <file>res/tool/hide.png</file>
+        <file>res/tool/show.png</file>
+        <file>res/tool/refresh.svg</file>
+        <file>res/tool/zoomfit.png</file>
+    </qresource>
+    <qresource prefix="/theme">
+        <file>res/qss/default.qss</file>
+        <file>res/qss/light.qss</file>
+    </qresource>
+</RCC>
